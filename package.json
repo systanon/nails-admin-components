@@ -1,16 +1,10 @@
 {
-  "name": "card-nails",
+  "name": "card-nails-test1",
   "version": "0.1.0",
   "private": false,
-  "main": "dist/CourseCard.umd.js",
-  "module": "dist/CourseCard.esm.js",
-  "unpkg": "dist/CourseCard.min.js",
-  "browser": {
-    "./sfc": "src/components/CourseCard.vue"
-  },
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --target lib --name cardLib .src/index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -50,5 +44,13 @@
     "last 2 versions",
     "not dead",
     "not ie <= 10"
+  ],
+  "main": ".dist/cardLib.common.js",
+  "files":[
+    "dist/*",
+    "src/*",
+    "publick/*",
+    "*.json",
+    "*.js"
   ]
 }
