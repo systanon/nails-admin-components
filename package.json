@@ -1,6 +1,6 @@
 {
   "name": "card-nails-test1",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "private": false,
   "description": "testing for modules",
   "main": ".dist/cardLib.common.js",
@@ -50,7 +50,7 @@
   "files":[
     "dist/*",
     "src/*",
-    "publick/*",
+    "public/*",
     "*.json",
     "*.js"
   ]
