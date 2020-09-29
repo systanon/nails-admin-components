@@ -1,13 +1,15 @@
 <template>
   <div id="app">
+    <CourseCard/>
   </div>
 </template>
 
 <script>
-
+import CourseCard from './components/CourseCard'
 export default {
   name: 'App',
   components: {
+    CourseCard
   }
 }
 </script>
