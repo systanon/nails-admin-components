@@ -1,9 +1,9 @@
 {
   "name": "card-nails-test1",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "private": false,
   "description": "testing for modules",
-  "main": ".dist/card-nails-test1.common.js",
+  "main": "./dist/card-nails-test1.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name card-nails-test1 ./src/index.js",
