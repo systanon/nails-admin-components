@@ -1,15 +1,20 @@
 <template>
-  <div id="app">
+<v-app>
+   <div id="app">
     <CourseCard/>
+    <CourseCardDetail/>
   </div>
+</v-app>
 </template>
 
 <script>
 import CourseCard from './components/CourseCard'
+import CourseCardDetail from './components/CourseCardDetail'
 export default {
   name: 'App',
   components: {
-    CourseCard
+    CourseCard,
+    CourseCardDetail
   }
 }
 </script>
