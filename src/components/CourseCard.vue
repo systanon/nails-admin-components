@@ -88,7 +88,7 @@ export default {
   ],
   data: () => ({
     // eslint-disable-next-line global-require
-    coverImageSrc: require('../../public/noImage.jpg'),
+    coverImageSrc: require('@/assets/noImage.jpg'),
     imageUrl: null,
   }),
   watch: {
