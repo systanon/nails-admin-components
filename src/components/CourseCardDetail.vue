@@ -79,7 +79,7 @@ export default {
   name: 'preview-course',
   data() {
     return {
-      coverImageSrc: require('../../public/noImage.jpg'),
+      coverImageSrc:'@/assets/noImage.jpg',
       imageUrl: null,
     };
   },
