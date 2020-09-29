@@ -79,7 +79,7 @@ export default {
   name: 'preview-course',
   data() {
     return {
-      coverImageSrc: require('@/assets/noImage.jpg'),
+      coverImageSrc: 'https://icon-library.com/images/no-image-icon/no-image-icon-0.jpg',
       imageUrl: null,
     };
   },
