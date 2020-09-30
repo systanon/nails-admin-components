@@ -1,6 +1,6 @@
 {
   "name": "card-nails-test1",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "private": false,
   "description": "testing for modules",
   "main": "./dist/card-nails-test1.common.js",
@@ -48,6 +48,10 @@
     "not ie <= 10"
   ],
   "files":[
-    "dist/*"
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
   ]
 }
