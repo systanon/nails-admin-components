@@ -73,6 +73,8 @@
 </style>
 
 <script>
+import NoImg from '../assets/noImage.jpg'
+
 export default {
   name: 'course-card',
   props: [
@@ -88,7 +90,7 @@ export default {
   ],
   data: () => ({
     // eslint-disable-next-line global-require
-    // coverImageSrc: require('@/assets/noImage.jpg'),
+    coverImageSrc: NoImg,
     imageUrl: null,
   }),
   watch: {
@@ -98,12 +100,10 @@ export default {
   },
   methods: {
     onError() {
-      // this.imageUrl = this.coverImageSrc;
-      this.imageUrl = '@/assets/noImage.jpg'
+      this.imageUrl = this.coverImageSrc;
     },
     checkUrl(url) {
-      // this.imageUrl = url || this.coverImageSrc;
-      this.imageUrl = url || '@/assets/noImage.jpg'
+      this.imageUrl = url || this.coverImageSrc;
     },
   },
   created() {
