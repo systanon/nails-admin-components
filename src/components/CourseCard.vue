@@ -89,7 +89,7 @@ export default {
   ],
   data: () => ({
     // eslint-disable-next-line global-require
-    coverImageSrc: '../assets/noImage.jpg',
+    coverImageSrc: './src/assets/noImage.jpg',
     imageUrl: null,
   }),
   watch: {
