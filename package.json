@@ -1,6 +1,6 @@
 {
   "name": "card-nails-test1",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "private": false,
   "description": "testing for modules",
   "main": "./dist/card-nails-test1.common.js",

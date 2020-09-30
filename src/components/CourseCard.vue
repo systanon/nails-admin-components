@@ -88,7 +88,7 @@ export default {
   ],
   data: () => ({
     // eslint-disable-next-line global-require
-    coverImageSrc: require('../assets/noImage.jpg'),
+    // coverImageSrc: require('@/assets/noImage.jpg'),
     imageUrl: null,
   }),
   watch: {
@@ -98,10 +98,12 @@ export default {
   },
   methods: {
     onError() {
-      this.imageUrl = this.coverImageSrc;
+      // this.imageUrl = this.coverImageSrc;
+      this.imageUrl = '@/assets/noImage.jpg'
     },
     checkUrl(url) {
-      this.imageUrl = url || this.coverImageSrc;
+      // this.imageUrl = url || this.coverImageSrc;
+      this.imageUrl = url || '@/assets/noImage.jpg'
     },
   },
   created() {
