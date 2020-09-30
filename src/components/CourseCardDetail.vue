@@ -80,7 +80,7 @@ export default {
   data() {
     return {
       // eslint-disable-next-line global-require
-      coverImageSrc: require('../assets/noImage.jpg'),
+      coverImageSrc: 'img/noImage.7ee3931e.jpg',
       imageUrl: null,
     };
   },
