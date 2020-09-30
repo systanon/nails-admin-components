@@ -73,7 +73,6 @@
 </style>
 
 <script>
-import NoImg from '../assets/noImage.jpg'
 
 export default {
   name: 'course-card',
@@ -90,7 +89,7 @@ export default {
   ],
   data: () => ({
     // eslint-disable-next-line global-require
-    coverImageSrc: NoImg,
+    coverImageSrc: require('../assets/noImage.jpg'),
     imageUrl: null,
   }),
   watch: {
