@@ -1,6 +1,7 @@
 <template>
   <v-card dark class="ma-16" width="350">
     <v-img :src="imageUrl" @error="onError" height="200px" />
+    <v-img src="@/assets/noImage.jpg"> html</v-img>
     <v-card-title class="buttons--text pa-0 pl-4 pt-4">
       {{ accessDays }} days | $ {{ price }}
     </v-card-title>
