@@ -1,7 +1,7 @@
 <template>
   <v-card dark class="ma-16" width="350">
-    <v-img :src="imageUrl" @error="onError" height="200px" />
-    <v-img src="@/assets/noImage.jpg"> html</v-img>
+    <v-img :src="imageUrl" @error="onError" height="200px" >v-img</v-img>
+     <img :src="imageUrl" @error="onError" height="200px" />
     <v-card-title class="buttons--text pa-0 pl-4 pt-4">
       {{ accessDays }} days | $ {{ price }}
     </v-card-title>
@@ -89,7 +89,8 @@ export default {
     'editCourse',
   ],
   data: () => ({
-    coverImageSrc:'img/noImage.7ee3931e.jpg',
+    // coverImageSrc:'img/noImage.7ee3931e.jpg',
+    coverImageSrc:'../assets/noImage.jpg',
     imageUrl: null,
   }),
   watch: {
