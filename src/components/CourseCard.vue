@@ -90,7 +90,7 @@ export default {
   ],
   data: () => ({
     // coverImageSrc:'img/noImage.7ee3931e.jpg',
-    coverImageSrc:'../assets/noImage.jpg',
+    coverImageSrc:require('@/assets/noImage.jpg'),
     imageUrl: null,
   }),
   watch: {
