@@ -89,7 +89,7 @@ export default {
     'editCourse',
   ],
   data: () => ({
-    coverImageSrc: require('@/assets/noImage.jpg'),
+    coverImageSrc:'img/noImage.7ee3931e.jpg',
     imageUrl: null,
   }),
   watch: {
