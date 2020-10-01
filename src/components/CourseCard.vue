@@ -88,8 +88,7 @@ export default {
     'editCourse',
   ],
   data: () => ({
-    // eslint-disable-next-line global-require
-    coverImageSrc: 'img/noImage.7ee3931e.jpg',
+    coverImageSrc: require('@/assets/noImage.jpg'),
     imageUrl: null,
   }),
   watch: {
