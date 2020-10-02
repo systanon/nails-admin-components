@@ -1,6 +1,7 @@
 <template>
   <v-app>
     <div id="app">
+      <v-btn @click="btnHandler">{{typeCourse}}</v-btn>
       <CourseCard
         :accessDays="accessDays"
         :url="url"
@@ -10,6 +11,7 @@
         :id="id"
         :removeCourse="deleteRequest"
         :editCourse="editCourse"
+        :type="typeCourse"
       />
     </div>
   </v-app>
@@ -29,6 +31,8 @@ export default {
     subtitle:'this is subtitle',
     price: 50,
     id: 5125,
+    typeCourse: 'offline',
+    buttonPress: false
 
   }),
   methods:{
@@ -37,6 +41,10 @@ export default {
     },
     editCourse() {
       console.log('edit course')
+    },
+    btnHandler() {
+      this.buttonPress = !this.buttonPress
+      this.typeCourse = this.buttonPress ? 'online' : 'offline'
     }
   }
 };
@@ -52,7 +60,8 @@ export default {
   margin-top: 60px;
   background-color: black;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 .v-btn__content {
   justify-content: center !important;
