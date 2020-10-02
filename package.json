@@ -1,12 +1,12 @@
 {
-  "name": "card-nails-test1",
-  "version": "0.5.0",
+  "name": "nails-component-card-detail",
+  "version": "0.1.0",
   "private": false,
   "description": "testing for modules",
-  "main": "./dist/card-nails-test1.common.js",
+  "main": "./dist/nails-component-card-detail.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name card-nails-test1 ./src/index.js",
+    "build": "vue-cli-service build --target lib --name nails-component-card-detail ./src/index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
