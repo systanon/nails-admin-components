@@ -79,7 +79,6 @@ export default {
   name: 'preview-course',
   data() {
     return {
-      // eslint-disable-next-line global-require
       coverImageSrc: 'img/noImage.7ee3931e.jpg',
       imageUrl: null,
     };

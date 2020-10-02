@@ -3,6 +3,7 @@
    <div id="app">
     <CourseCard/>
     <CourseCardDetail/>
+    <CoursesForm/>
   </div>
 </v-app>
 </template>
@@ -10,11 +11,13 @@
 <script>
 import CourseCard from './components/CourseCard'
 import CourseCardDetail from './components/CourseCardDetail'
+import CoursesForm from './components/CoursesForm'
 export default {
   name: 'App',
   components: {
     CourseCard,
-    CourseCardDetail
+    CourseCardDetail,
+    CoursesForm
   }
 }
 </script>
@@ -27,5 +30,6 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  background-color: black;
 }
 </style>
