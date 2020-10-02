@@ -208,11 +208,9 @@
 <script>
 export default {
   components: {
-    // CourseCard,
-    // CourseCardDetail,
   },
   name: 'courses-form',
-  props: ['typeCourse', 'id', 'getCourseID', 'sendData', 'back'],
+  props: ['typeCourse', 'getCourseID', 'sendData', 'back' , 'idCourse'],
   data() {
     return {
       category: '',
@@ -243,7 +241,7 @@ export default {
     };
   },
   watch: {
-    id(val) {
+    idCourse(val) {
       if (val) {
         this.editCourse(val);
       } else {
@@ -368,8 +366,8 @@ export default {
   },
 
   created() {
-    if (this.id) {
-      this.editCourse(this.id);
+    if (this.idCourse) {
+      this.editCourse(this.idCourse);
     } else {
       this.resetData();
     }

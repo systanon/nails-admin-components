@@ -1,18 +1,20 @@
 {
-  "name": "card-nails-test1",
-  "version": "0.5.0",
+  "name": "nails-component-card-form",
+  "version": "0.1.0",
   "private": false,
   "description": "testing for modules",
-  "main": "./dist/card-nails-test1.common.js",
+  "main": "./dist/nails-component-card-form.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name card-nails-test1 ./src/index.js",
+    "build": "vue-cli-service build --target lib --name nails-component-card-form ./src/index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
     "@mdi/font": "^3.6.95",
     "core-js": "^3.6.5",
+    "nails-component-card": "^0.1.0",
+    "nails-component-card-detail": "^0.1.0",
     "roboto-fontface": "*",
     "vue": "^2.6.11",
     "vuetify": "^2.2.11"
@@ -47,7 +49,7 @@
     "not dead",
     "not ie <= 10"
   ],
-  "files":[
+  "files": [
     "dist/*"
   ]
 }
