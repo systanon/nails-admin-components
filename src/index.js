@@ -1,13 +1,9 @@
 import CourseCard  from './components/CourseCard.vue'
-import CourseCardDetail  from './components/CourseCardDetail.vue'
-import CoursesForm from './components/CoursesForm.vue'
 
 import Vue from 'vue'
 
 const Components = {
-  CourseCard,
-  CourseCardDetail,
-  CoursesForm
+  CourseCard
 }
 
 Object.keys(Components).forEach(name => {
