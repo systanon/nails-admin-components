@@ -1,23 +1,17 @@
 <template>
 <v-app>
    <div id="app">
-    <CourseCard/>
-    <CourseCardDetail/>
-    <CoursesForm/>
+     <Spiner/>
   </div>
 </v-app>
 </template>
 
 <script>
-import CourseCard from './components/CourseCard'
-import CourseCardDetail from './components/CourseCardDetail'
-import CoursesForm from './components/CoursesForm'
+import Spiner from './components/Spiner'
 export default {
   name: 'App',
   components: {
-    CourseCard,
-    CourseCardDetail,
-    CoursesForm
+    Spiner
   }
 }
 </script>

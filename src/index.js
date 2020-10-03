@@ -1,13 +1,10 @@
-import CourseCard  from './components/CourseCard.vue'
-import CourseCardDetail  from './components/CourseCardDetail.vue'
-import CoursesForm from './components/CoursesForm.vue'
+import Spiner  from './components/Spiner.vue'
+
 
 import Vue from 'vue'
 
 const Components = {
-  CourseCard,
-  CourseCardDetail,
-  CoursesForm
+ Spiner
 }
 
 Object.keys(Components).forEach(name => {
